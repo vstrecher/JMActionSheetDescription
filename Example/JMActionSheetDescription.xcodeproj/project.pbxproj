@@ -32,6 +32,7 @@
 		C2EFA8DF1B1CCEF600544D7E /* Flipboard-App-Icon-150x150.jpg in Resources */ = {isa = PBXBuildFile; fileRef = C2EFA8D91B1CCEF600544D7E /* Flipboard-App-Icon-150x150.jpg */; };
 		C2EFA8E01B1CCEF600544D7E /* gmail-ios-icon-app-150x150.png in Resources */ = {isa = PBXBuildFile; fileRef = C2EFA8DA1B1CCEF600544D7E /* gmail-ios-icon-app-150x150.png */; };
 		C2EFA8E11B1CCEF600544D7E /* mail-iphone-150x150.jpg in Resources */ = {isa = PBXBuildFile; fileRef = C2EFA8DB1B1CCEF600544D7E /* mail-iphone-150x150.jpg */; };
+		C7BEC07D1BB04B3F009B2C6E /* actionsheet_mark@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = C7BEC07C1BB04B3F009B2C6E /* actionsheet_mark@3x.png */; };
 		F010553D5083B579B13C838E /* Pods_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A747F8FA7F9D4854358C000B /* Pods_Tests.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
 /* End PBXBuildFile section */
 
@@ -82,6 +83,7 @@
 		C2EFA8D91B1CCEF600544D7E /* Flipboard-App-Icon-150x150.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Flipboard-App-Icon-150x150.jpg"; sourceTree = "<group>"; };
 		C2EFA8DA1B1CCEF600544D7E /* gmail-ios-icon-app-150x150.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "gmail-ios-icon-app-150x150.png"; sourceTree = "<group>"; };
 		C2EFA8DB1B1CCEF600544D7E /* mail-iphone-150x150.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "mail-iphone-150x150.jpg"; sourceTree = "<group>"; };
+		C7BEC07C1BB04B3F009B2C6E /* actionsheet_mark@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "actionsheet_mark@3x.png"; sourceTree = "<group>"; };
 		C94A66FDF3C41B789ECDF8D9 /* Pods-Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Tests/Pods-Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		D3734AA4CB0BB4D800A084E8 /* Pods-JMActionSheetDescription_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JMActionSheetDescription_Example.release.xcconfig"; path = "Pods/Target Support Files/Pods-JMActionSheetDescription_Example/Pods-JMActionSheetDescription_Example.release.xcconfig"; sourceTree = "<group>"; };
 		E629FBB1D48E386083D0EE50 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
@@ -225,6 +227,7 @@
 			children = (
 				C2EFA8D61B1CCEF600544D7E /* 1Pi-icon-1024-150x150.png */,
 				C2EFA8D71B1CCEF600544D7E /* apple_store_app_icon.jpg */,
+				C7BEC07C1BB04B3F009B2C6E /* actionsheet_mark@3x.png */,
 				C2EFA8D81B1CCEF600544D7E /* fb-icon3-150x150.png */,
 				C2EFA8D91B1CCEF600544D7E /* Flipboard-App-Icon-150x150.jpg */,
 				C2EFA8DA1B1CCEF600544D7E /* gmail-ios-icon-app-150x150.png */,
@@ -323,6 +326,7 @@
 				C2413E021B2C305500E5CBBA /* Launch Screen.xib in Resources */,
 				6003F5A9195388D20070C39A /* Images.xcassets in Resources */,
 				C2EFA8DF1B1CCEF600544D7E /* Flipboard-App-Icon-150x150.jpg in Resources */,
+				C7BEC07D1BB04B3F009B2C6E /* actionsheet_mark@3x.png in Resources */,
 				C2EFA8E11B1CCEF600544D7E /* mail-iphone-150x150.jpg in Resources */,
 				6003F5A1195388D20070C39A /* Main_iPhone.storyboard in Resources */,
 				C2EFA8DD1B1CCEF600544D7E /* apple_store_app_icon.jpg in Resources */,

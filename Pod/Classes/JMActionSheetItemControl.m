@@ -7,7 +7,8 @@
 //
 
 #import "JMActionSheetItemControl.h"
-static const CGFloat JMActionSheetItemControlSize = 30.0f;
+static const CGFloat JMActionSheetItemControlHeight = 13.0f;
+static const CGFloat JMActionSheetItemControlWidth = 14.0f;
 
 @interface JMActionSheetItemControl ()
 @end
@@ -16,13 +17,13 @@ static const CGFloat JMActionSheetItemControlSize = 30.0f;
 
 - (CGRect)titleRectForContentRect:(CGRect)contentRect
 {
-    return CGRectMake(0.0f,0.0f , CGRectGetWidth(contentRect), CGRectGetHeight(contentRect));
+    return CGRectMake(0.0f, 0.0f, CGRectGetWidth(contentRect), CGRectGetHeight(contentRect));
 }
 
 - (CGRect)imageRectForContentRect:(CGRect)contentRect
 {
-    CGFloat y = (CGRectGetHeight(contentRect) - JMActionSheetItemControlSize) / 2.0f;
-    return CGRectMake(y, y, JMActionSheetItemControlSize, JMActionSheetItemControlSize);
+    CGFloat y = (CGRectGetHeight(contentRect) - JMActionSheetItemControlHeight) / 2.0f;
+    return CGRectMake(CGRectGetWidth(self.frame) - JMActionSheetItemControlWidth - y, y, JMActionSheetItemControlWidth, JMActionSheetItemControlHeight);
 }
 
 @end

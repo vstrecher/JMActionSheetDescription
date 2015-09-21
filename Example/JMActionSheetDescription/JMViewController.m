@@ -48,7 +48,7 @@
 
     JMActionSheetItem *otherItem = [[JMActionSheetItem alloc] init];
     otherItem.title = @"button with icon";
-    otherItem.icon = [IonIcons imageWithIcon:ion_social_github  iconColor:[UIColor greenColor] iconSize:30.0f imageSize:CGSizeMake(30.0f, 30.0f)];;
+    otherItem.icon = [UIImage imageNamed:@"actionsheet_mark@3x.png"];
     otherItem.action = ^(void){
         NSLog(@"button with icon pressed");
     };
